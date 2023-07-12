@@ -1,0 +1,8 @@
+package com.treadly.client.lib.sdk.Listeners;
+
+import com.treadly.client.lib.sdk.Model.BluetoothConnectionState;
+
+/* loaded from: classes2.dex */
+public interface BluetoothConnectionEventListener {
+    void onBluetoohConnectionStateChanged(BluetoothConnectionState bluetoothConnectionState);
+}

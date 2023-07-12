@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/public_stream" android:title="@string/public_title"/>
+    <item android:id="@+id/friends_stream" android:title="@string/friends_title"/>
+    <item android:id="@+id/private_stream" android:title="@string/private_title"/>
+</menu>

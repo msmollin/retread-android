@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView android:layout_gravity="center" android:id="@+id/leftBtn" android:layout_width="50dp" android:layout_height="50dp" android:src="@drawable/back_arrow" android:scaleType="centerInside" android:layout_centerVertical="true"/>
+    <TextView android:textSize="16dp" android:textColor="#ffffffff" android:gravity="center" android:id="@+id/titleTv" android:padding="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Confirm" android:layout_weight="1" android:layout_centerInParent="true"/>
+    <TextView android:textSize="16dp" android:textColor="#ffffffff" android:gravity="center" android:id="@+id/rightBtn" android:padding="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+</RelativeLayout>

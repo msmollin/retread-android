@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/view_calendar_day_layout_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true"/>
+    <View android:id="@+id/view_calendar_today_ring" android:background="@drawable/activity_calendar_today_ring" android:layout_width="34dp" android:layout_height="34dp" android:layout_centerInParent="true"/>
+    <View android:id="@+id/view_calendar_day_default_ring" android:background="@drawable/activity_calendar_default_ring" android:layout_width="34dp" android:layout_height="34dp" android:layout_centerInParent="true"/>
+    <com.treadly.Treadly.UI.TreadlyActivity.ActivityCalendar.TreadlyActivityCalendarProgressRing android:id="@+id/view_calendar_day_layout_progress" android:layout_width="28dp" android:layout_height="28dp" android:layout_centerInParent="true"/>
+    <View android:id="@+id/view_calendar_day_complete" android:background="@drawable/activity_calendar_complete" android:layout_width="26dp" android:layout_height="26dp" android:layout_centerInParent="true"/>
+    <TextView android:textSize="14sp" android:textColor="@color/white" android:gravity="center" android:id="@+id/view_calendar_day_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="XX" android:includeFontPadding="false" android:layout_centerInParent="true" android:fontFamily="@font/proximanova_bold"/>
+</RelativeLayout>

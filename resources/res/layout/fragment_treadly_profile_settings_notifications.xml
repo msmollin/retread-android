@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@color/bg_color" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@+id/login_header" android:layout_width="0dp" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" layout="@layout/top_nav_header"/>
+    <ExpandableListView android:id="@+id/notification_list_view" android:layout_width="match_parent" android:layout_height="0dp" android:groupIndicator="@null" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@+id/login_header"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
